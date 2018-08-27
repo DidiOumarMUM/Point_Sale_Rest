@@ -7,6 +7,7 @@ import edu.mum.model.User;
 import edu.mum.model.UserCredentials;
 
 @Repository
+//didi test
 public interface UserDao  extends JpaRepository<User, Integer> {
       
 	public User findByEmail(String email);
